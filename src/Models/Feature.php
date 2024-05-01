@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Laravelcm\Subscriptions\Traits\HasSlug;
-use Laravelcm\Subscriptions\Traits\HasTranslations;
+use Spatie\Translatable\HasTranslations;
 use Laravelcm\Subscriptions\Services\Period;
 use Laravelcm\Subscriptions\Traits\BelongsToPlan;
 use Spatie\EloquentSortable\Sortable;
