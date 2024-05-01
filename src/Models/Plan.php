@@ -93,7 +93,7 @@ class Plan extends Model implements Sortable
         'prorate_extend_due',
         'active_subscribers_limit',
         'sort_order',
-    'image,
+        'image',
     ];
 
     protected $casts = [
